@@ -47,9 +47,11 @@ Follow these steps to integrate this enhancement into your theme:
 ## How to Use
 
 1.  From your WordPress Dashboard, navigate to **Media** > **Library**.
-2.  You will see a new dropdown menu labeled "**All MIME Types**" next to the default date filter.
-3.  Select a MIME type from the list (e.g., `image/png`) and click the **"Filter"** button.
-4.  The Media Library will update to show only files of that specific type.
+2.  **IMPORTANT:** This filter **only appears in the "List View"**. By default, WordPress uses a "Grid View". Please click the **List View icon** (which looks like horizontal lines 
+    ) located at the top-left of the media area, next to the "Add Media File" button.
+3.  Once you are in List View, you will see a new dropdown menu labeled "**All MIME Types**" next to the default date filter.
+4.  Select a MIME type from the list (e.g., `image/png`) and click the **"Filter"** button.
+5.  The Media Library will update to show only files of that specific type.
 
 ## License
 
