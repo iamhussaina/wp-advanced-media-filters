@@ -189,10 +189,10 @@ final class Hussainas_Media_Filters {
 	/**
 	 * Prevent cloning of the instance.
 	 */
-	private function __clone() {}
+	public function __clone() {}
 
 	/**
 	 * Prevent unserializing of the instance.
 	 */
-	private function __wakeup() {}
+	public function __wakeup() {}
 }
